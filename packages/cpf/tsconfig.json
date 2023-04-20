@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["ES2015"],
+    "module": "CommonJS",
+    "outDir": "./dist", 
+    "rootDir": "./src"
+  },
+  "exclude": ["node_modules"],
+  "extends": "@format-string/tsconfig/base.json", 
+  "include": ["src"],
+   "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+}
+ 

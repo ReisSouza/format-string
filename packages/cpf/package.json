@@ -1,23 +1,24 @@
 {
-  "name": "@format-string/core",
-  "version": "0.0.1",
+  "name": "@format-string/cpf",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
-  "files": ["dist/**"],
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist",
     "dev": "tsc -w",
     "lint": "eslint \"src/**/*.ts*\""
   },
-  "jest": {
-    "preset": "jest-presets/jest/node"
-  },
   "devDependencies": {
-    "eslint": "^7.32.0",
     "@format-string/eslint-config": "*",
-    "tsconfig": "*",
-    "typescript": "^4.5.3"
+    "@format-string/tsconfig": "*",
+    "eslint": "^7.32.0",
+    "typescript": "^4.5.3",
+    "tsup": "^6.7.0"
   }
 }
