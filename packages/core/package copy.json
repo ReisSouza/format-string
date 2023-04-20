@@ -1,0 +1,25 @@
+{
+  "name": "@format-string/core",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "jest": {
+    "preset": "jest-presets/jest/node"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "@transform-string/eslint-config": "*",
+    "tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}

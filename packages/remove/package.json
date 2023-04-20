@@ -1,0 +1,23 @@
+{
+  "name": "@format-string/remove",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "source": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "dev": "tsc -w",
+    "lint": "eslint \"src/**/*.ts*\""
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "@transform-string/eslint-config": "*",
+    "@transform-string/tsconfig": "*",
+    "typescript": "^4.5.3"
+  }
+}

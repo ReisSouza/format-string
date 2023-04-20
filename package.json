@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "build": "turbo run build",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "dev": "turbo run dev --parallel",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build  && changeset publish",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "packageManager": "npm@9.5.1",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
