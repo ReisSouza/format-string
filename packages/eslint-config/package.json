@@ -1,5 +1,5 @@
 {
-  "name": "@transform-string/eslint-config",
+  "name": "@format-string/eslint-config",
   "version": "0.0.3",
   "private": true,
   "main": "index.js",

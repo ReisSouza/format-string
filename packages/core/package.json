@@ -16,8 +16,8 @@
   "devDependencies": {
     "eslint": "^7.32.0",
     "@format-string/remove": "*",
-    "@transform-string/eslint-config": "*",
-    "@transform-string/tsconfig": "*",
+    "@format-string/eslint-config": "*",
+    "@format-string/tsconfig": "*",
     "typescript": "^4.5.3"
   }
 }

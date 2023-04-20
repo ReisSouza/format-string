@@ -1,4 +1,4 @@
-# @transform-string/eslint-config
+# @format-string/eslint-config
 
 ## 0.0.3
 

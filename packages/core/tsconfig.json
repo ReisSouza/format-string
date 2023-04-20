@@ -6,7 +6,7 @@
     "rootDir": "./src"
   },
   "exclude": ["node_modules"],
-  "extends": "@transform-string/tsconfig/base.json",
+  "extends": "@format-string/tsconfig/base.json",
   "include": ["src"],
 }
- 
+   
