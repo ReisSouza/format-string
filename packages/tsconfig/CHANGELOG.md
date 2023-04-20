@@ -1,5 +1,11 @@
 # @transform-string/tsconfig
 
+## 0.0.2
+
+### Patch Changes
+
+- first publish npm version beta
+
 ## 1.0.1
 
 ### Patch Changes

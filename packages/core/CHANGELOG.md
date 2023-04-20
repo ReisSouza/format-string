@@ -1,5 +1,11 @@
 # @format-string/core
 
+## 0.0.2
+
+### Patch Changes
+
+- first publish npm version beta
+
 ## 2.1.0
 
 ### Minor Changes
