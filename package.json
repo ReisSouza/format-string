@@ -2,9 +2,6 @@
   "repository": {
     "url": "https://github.com/ReisSouza/format-string"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "build": "turbo run build",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",

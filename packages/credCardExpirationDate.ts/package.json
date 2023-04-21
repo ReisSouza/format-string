@@ -1,4 +1,5 @@
 {
+  "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/cred-card-expiration-date",
   "version": "1.0.1",
   "main": "./dist/index.js",

@@ -1,10 +1,10 @@
 {
+  "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/eslint-config",
   "version": "0.1.1",
   "private": true,
   "main": "index.js",
   "license": "MIT",
-  "repository": {},
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
     "@typescript-eslint/parser": "^5.25.0",
