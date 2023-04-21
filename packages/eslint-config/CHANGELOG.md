@@ -1,5 +1,11 @@
 # @format-string/eslint-config
 
+## 0.1.1
+
+### Patch Changes
+
+- updated doc
+
 ## 0.1.0
 
 ### Minor Changes
