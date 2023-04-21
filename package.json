@@ -1,4 +1,7 @@
 {
+  "repository": {
+    "url": "https://github.com/ReisSouza/format-string"
+  },
   "scripts": {
     "build": "turbo run build",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
