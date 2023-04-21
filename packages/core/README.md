@@ -42,7 +42,7 @@ functionality that allows adding or removing mask to string, working with any re
 - [Usage](#usage)
 - [Properties setMask](#properties-setmask)
 - [Type](#type)
-- [Usage single](#usage-single)
+- [Usage single visit](#usage-single-visit)
   - [✍️ Authors ](#️-authors-)
 - [Thanks](#thanks)
 
@@ -59,15 +59,22 @@ functionality that allows adding or removing mask to string, working with any re
 # Usage
 
 ```
-import {setMask } from "@format-string/core" 
+import { formatString } from '@format-string/core'
+
+const formatStringCPF = formatString({ type: 'cpf', value: '00000000000' })
+
+console.log({ formatStringCPF })
+
+
+Result = { formatStringCPF: 000.000.000-00 }
 
 ```
 
 # Properties setMask
 |                           Name                            |               Type                | Default | Description |
 |        :-----------------------------------------:        |    :-------------------------:    | :-----: | :--------------------------------------------------------------------- |
-|                    **[`type`](#type)**                    |            `{String}`             |         | Mask format |
-|                          **value**                        |            `string | Number | undefined`             |         | string to be formatted |
+|                    **[`type`](#type)**                    |            [`string`](#type)             |   -      | Mask format |
+|                          **value**                        |            `string | Number | undefined`             |   -      | string to be formatted |
 |                         
 
 # Type
@@ -89,7 +96,61 @@ import {setMask } from "@format-string/core"
   | cardExpirationDate
 ```
 
-# Usage single
+# Usage single visit
+
+<p align="center">
+   
+formatRemove : [npm i @format-string/removeCPF](https://www.npmjs.com/package/@format-string/remove) 
+</p>
+<p align="center">
+   
+formatStringCPF : [npm i @format-string/cpf](https://www.npmjs.com/package/@format-string/cpf) 
+</p>
+<p align="center">
+   
+formatStringCNPJ : [npm i @format-string/cnpj](https://www.npmjs.com/package/@format-string/cnpj) 
+</p>
+<p align="center">
+   
+formatStringSingleDocument : [npm i @format-string/single-document](https://www.npmjs.com/package/@format-string/single-document) 
+</p>
+<p align="center">
+   
+formatStringNumber : [npm i @format-string/number](https://www.npmjs.com/package/@format-string/number) 
+</p>
+<p align="center">
+   
+formatStringCurrency : [npm i @format-string/currency](https://www.npmjs.com/package/@format-string/currency) 
+</p>
+<p align="center">
+   
+formatStringCredCardExpirationDate : [npm i @format-string/cred-card-expiration-date](https://www.npmjs.com/package/@format-string/cred-card-expiration-date) 
+</p>
+<p align="center">
+   
+formatStringTelephone : [npm i @format-string/telephone](https://www.npmjs.com/package/@format-string/telephone) 
+</p>
+<p align="center">
+   
+formatStringObscureEmail : [npm i @format-string/obscure-email](https://www.npmjs.com/package/@format-string/obscure-email) 
+</p>
+<p align="center">
+   
+formatStringPostalCode: [npm i @format-string/postal-code](https://www.npmjs.com/package/@format-string/postal-code) 
+</p>
+<p align="center">
+   
+formatStringRG : [npm i @format-string/rg](https://www.npmjs.com/package/@format-string/rg) 
+</p>
+<p align="center">
+   
+formatStringPhone : [npm i @format-string/phone](https://www.npmjs.com/package/@format-string/phone) 
+</p>
+<p align="center">
+   
+formatStringCredCard : [npm i @format-string/cred-card](https://www.npmjs.com/package/@format-string/cred-card) 
+</p>
+
 
 ```
 ```

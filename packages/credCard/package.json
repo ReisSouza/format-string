@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/cred-card",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
