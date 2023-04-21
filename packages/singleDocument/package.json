@@ -1,6 +1,6 @@
 {
-  "name": "@format-string/cpf",
-  "version": "1.0.0",
+  "name": "@format-string/single-document",
+  "version": "0.1.0",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -15,7 +15,9 @@
     "lint": "eslint \"src/**/*.ts*\""
   },
   "devDependencies": {
+    "@format-string/cpf": "*",
     "@format-string/eslint-config": "*",
+    "@format-string/cnpj": "*",
     "@format-string/tsconfig": "*",
     "eslint": "^7.32.0",
     "typescript": "^4.5.3",

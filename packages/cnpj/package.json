@@ -1,6 +1,6 @@
 {
   "name": "@format-string/cnpj",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -9,9 +9,9 @@
     "dist/**"
   ],
   "scripts": {
-    "build": "tsc",
     "clean": "rm -rf dist",
-    "dev": "tsc -w",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
     "lint": "eslint \"src/**/*.ts*\""
   },
   "devDependencies": {
