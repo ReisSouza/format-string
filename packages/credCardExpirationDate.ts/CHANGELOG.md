@@ -1,10 +1,10 @@
-# @format-string/core
+# @format-string/remove
 
-## 0.2.0
+## 1.0.0
 
-### Minor Changes
+### Major Changes
 
-- add all method
+- updated
 
 ## 0.1.0
 
@@ -29,12 +29,6 @@
 ### Minor Changes
 
 - adjustment
-
-## 2.0.1
-
-### Patch Changes
-
-- adjuste
 
 ## 2.0.0
 

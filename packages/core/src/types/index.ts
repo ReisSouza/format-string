@@ -1,7 +1,19 @@
 export type Value = string | number | undefined
 export type Response = string | undefined
 
-export type FormatStringType = 'cnpj' | 'cpf'
+export type FormatStringType =
+  | 'cnpj'
+  | 'cpf'
+  | 'phone'
+  | 'postalCode'
+  | 'cpfOurCnpj'
+  | 'currency'
+  | 'rg'
+  | 'credCard'
+  | 'obscureEmail'
+  | 'number'
+  | 'telephone'
+  | 'cardExpirationDate'
 
 export type FormatStringArgs = {
   type: FormatStringType
