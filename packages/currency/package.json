@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/currency",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -12,14 +12,15 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "dev": "tsx watch src/index.ts --format esm,cjs --dts",
     "lint": "eslint \"src/**/*.ts*\""
   },
   "devDependencies": {
     "@format-string/eslint-config": "*",
     "@format-string/tsconfig": "*",
     "eslint": "^7.32.0",
-    "typescript": "^4.5.3",
-    "tsup": "^6.7.0"
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.7",
+    "typescript": "^4.5.3"
   }
 }

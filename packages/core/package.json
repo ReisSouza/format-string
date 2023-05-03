@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/core",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -11,7 +11,7 @@
   "scripts": {
     "clean": "rm -rf dist",
     "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "dev": "tsx watch src/index.ts --format esm,cjs --dts",
     "lint": "eslint \"src/**/*.ts*\""
   },
   "devDependencies": {

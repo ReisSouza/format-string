@@ -1,5 +1,11 @@
 # @format-string/remove
 
+## 1.1.3
+
+### Patch Changes
+
+- change tsup to tsx in run dev
+
 ## 1.1.2
 
 ### Patch Changes
