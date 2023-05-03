@@ -2,10 +2,13 @@ import { Response, Value } from './types'
 
 export const formatCNPJ = (value: Value): Response => {
   if (value === undefined) return undefined
-  return String(value).replace(
-    /^(\d{2})(\d{3})(\d{3})(\d{4})(\d{2})$/,
-    '$1.$2.$3/$4-$5',
-  )
+  return String(value)
+    .replace(/\D/g, '')
+    .replace(/(\d{2})(\d)/, '$1.$2')
+    .replace(/(\d{3})(\d)/, '$1.$2')
+    .replace(/(\d{3})(\d)/, '$1/$2')
+    .replace(/(\d{4})(\d{1,2})/, '$1-$2')
+    .replace(/(-\d{2})\d+?$/, '$1')
 }
 
 export const isFormatCNPJ = (
@@ -16,5 +19,3 @@ export const isFormatCNPJ = (
   const regex = /^\d{2}\.\d{3}\.\d{3}\/\d{4}\-\d{2}$/
   return regex.test(value)
 }
-
-console.log(formatCNPJ('28097638000101'))

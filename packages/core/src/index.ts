@@ -8,7 +8,10 @@ import { formatStringNumber } from '@format-string/number'
 import { formatStringPhone } from '@format-string/phone'
 import { formatStringPostalCode } from '@format-string/postal-code'
 import { formatStringRG } from '@format-string/rg'
+import { formatStringCredCardExpirationDate } from '@format-string/cred-card-expiration-date'
 import { formatStringTelephone } from '@format-string/telephone'
+
+import { formatSinglePhone } from '@format-string/single-phone'
 
 import {
   formatSingleDocument,
@@ -20,7 +23,7 @@ const formatString = ({ value, type }: FormatStringArgs): Response => {
     cnpj: formatCNPJ(value),
     cpf: formatCPF(value),
     credCard: formatStringCredCard(value),
-    cardExpirationDate: formatStringCredCard(value),
+    cardExpirationDate: formatStringCredCardExpirationDate(value),
     cpfOurCnpj: formatSingleDocument(value),
     currency: formatStringCurrency(value),
     number: formatStringNumber(value),
@@ -29,6 +32,7 @@ const formatString = ({ value, type }: FormatStringArgs): Response => {
     postalCode: formatStringPostalCode(value),
     rg: formatStringRG(value),
     telephone: formatStringTelephone(value),
+    phoneOrTelephone: formatSinglePhone(value),
   }
 
   return asMaskSelect[type]

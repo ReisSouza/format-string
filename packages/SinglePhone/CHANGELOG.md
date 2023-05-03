@@ -1,28 +1,16 @@
 # @format-string/remove
 
-## 1.0.3
-
-### Patch Changes
-
-- updated
-
-## 1.0.2
+## 0.1.2
 
 ### Patch Changes
 
 - updated teste
 
-## 1.0.1
+## 0.1.1
 
 ### Patch Changes
 
 - updated doc
-
-## 1.0.0
-
-### Major Changes
-
-- updated
 
 ## 0.1.0
 

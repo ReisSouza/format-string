@@ -2,7 +2,12 @@ import { Value } from './types'
 
 export const formatCPF = (value: Value) => {
   if (value === undefined) return undefined
-  return String(value).replace(/^(\d{3})(\d{3})(\d{3})(\d{2})$/, '$1.$2.$3-$4')
+  return String(value)
+    .replace(/\D/g, '')
+    .replace(/(\d{3})(\d)/, '$1.$2')
+    .replace(/(\d{3})(\d)/, '$1.$2')
+    .replace(/(\d{3})(\d{1,2})/, '$1-$2')
+    .replace(/(-\d{2})\d+?$/, '$1')
 }
 
 export const isFormatCPF = (value: string | undefined) => {

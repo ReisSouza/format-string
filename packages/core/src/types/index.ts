@@ -14,6 +14,7 @@ export type FormatStringType =
   | 'number'
   | 'telephone'
   | 'cardExpirationDate'
+  | 'phoneOrTelephone'
 
 export type FormatStringArgs = {
   type: FormatStringType

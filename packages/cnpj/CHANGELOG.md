@@ -1,5 +1,23 @@
 # @format-string/remove
 
+## 1.1.2
+
+### Patch Changes
+
+- updated
+
+## 1.1.1
+
+### Patch Changes
+
+- update
+
+## 1.1.0
+
+### Minor Changes
+
+- updated
+
 ## 1.0.2
 
 ### Patch Changes

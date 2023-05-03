@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/core",
-  "version": "0.2.2",
+  "version": "0.3.2",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
@@ -15,6 +15,7 @@
     "lint": "eslint \"src/**/*.ts*\""
   },
   "devDependencies": {
+    "@format-string/single-phone": "*",
     "@format-string/tsconfig": "*",
     "@format-string/eslint-config": "*",
     "@format-string/remove": "*",

@@ -1,5 +1,23 @@
 # @format-string/core
 
+## 0.3.2
+
+### Patch Changes
+
+- updated
+
+## 0.3.1
+
+### Patch Changes
+
+- update
+
+## 0.3.0
+
+### Minor Changes
+
+- updated
+
 ## 0.2.2
 
 ### Patch Changes
