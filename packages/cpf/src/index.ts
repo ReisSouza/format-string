@@ -10,7 +10,7 @@ export const formatCPF = (value: Value) => {
     .replace(/(-\d{2})\d+?$/, '$1')
 }
 
-export const isFormatCPF = (value: string | undefined) => {
+export const isFormatCPF = (value: string | undefined): boolean | undefined => {
   if (value === undefined) return undefined
 
   const regex = /^[0-9]{3}\.[0-9]{3}\.[0-9]{3}-[0-9]{2}$/

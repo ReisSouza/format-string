@@ -1,5 +1,11 @@
 # @format-string/core
 
+## 0.3.3
+
+### Patch Changes
+
+- change tsup to tsx in run dev
+
 ## 0.3.2
 
 ### Patch Changes
