@@ -1,4 +1,4 @@
-import { Value } from './src/types'
+import { IFormatCPF, IIsFormatCPF } from './src/types'
 
-export declare const formatCPF: (value: Value) => string
-export declare const isFormatCPF: (value: string | undefined) => boolean
+export declare const formatCPF: (value: IFormatCPF) => string | undefined
+export declare const isFormatCPF: (value: IIsFormatCPF) => boolean | undefined

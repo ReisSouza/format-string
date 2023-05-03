@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES2015"],
+    "lib": ["ES2020"],
     "module": "CommonJS",
     "outDir": "./dist", 
     "rootDir": "./src"
@@ -9,4 +9,3 @@
   "extends": "@format-string/tsconfig/base.json", 
   "include": ["src"],
 }
- 

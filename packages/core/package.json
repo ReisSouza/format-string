@@ -1,7 +1,7 @@
 {
   "repository": "https://github.com/ReisSouza/format-string",
   "name": "@format-string/core",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "main": "./dist/index.js",
   "source": "./src/index.ts",
   "types": "./dist/index.d.ts",
