@@ -1,5 +1,11 @@
 # @format-string/tsconfig
 
+## 0.1.3
+
+### Patch Changes
+
+- remove fongis tsconfig and add tests formatCPF
+
 ## 0.1.2
 
 ### Patch Changes
