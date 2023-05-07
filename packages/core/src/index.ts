@@ -38,6 +38,8 @@ const formatString = ({ value, type }: FormatStringArgs): Response => {
   return asMaskSelect[type]
 }
 
+export type { FormatStringArgs, FormatStringType } from './types'
+
 export {
   formatRemove,
   formatString,

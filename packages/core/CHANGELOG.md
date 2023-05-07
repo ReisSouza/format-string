@@ -1,5 +1,11 @@
 # @format-string/core
 
+## 0.3.6
+
+### Patch Changes
+
+- export type for core
+
 ## 0.3.5
 
 ### Patch Changes
